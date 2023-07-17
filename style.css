@@ -1,0 +1,320 @@
+/* *{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+} */
+body{
+    /* background-image: url("C:\Users\MAUNDU CYRUS\Pictures\Skylight.jpg");  */
+    background-color: darkslategray; 
+    display: block;
+}
+.order li a:hover{
+  background-color: rgb(157, 255, 0);
+}
+.order li a:active{
+  background-color: deepskyblue;
+}
+.order li a:visited{
+  background-color: rgb(0, 255, 42);
+}
+#div-1{
+    height: 450px;
+    width: 25cm;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+ul.order{
+list-style-type: none;
+ margin: 0;
+ padding: 0;
+
+
+}
+.order li {
+    display: inline-flex;
+  }
+  
+  li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  button{
+    border-radius: 50px;
+    margin-left: 25.5%;
+    cursor: pointer;
+  }
+  button:hover{
+    color: rgb(238, 81, 8);
+  }
+  div#div-2{
+    background-color: rgb(0, 255, 128);
+    Width: 12.5cm;
+    Height: 55.2vh;
+    left:50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 20px solid #969696;
+  }
+  div#div-3{
+    background-color: blue;
+    Width: 12.5cm;
+    Height: 55.2vh;
+    left:50%;
+    margin-left: 12.5cm;
+    margin-top: -38%;
+  }
+  h1{
+    display: block;
+    justify-self: center;
+  }
+  /* image{ 
+    display: block;
+    position: relative;
+    width: 500px;
+  } */
+  #Layout{
+    background-color: #fff;
+    height: 350px;
+    width: 25cm;
+    margin-left: 10%;
+  }
+  div#col-1{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: darksalmon;
+    border-radius: 15px;
+  }
+  div#col-2{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: rgb(224, 221, 14);
+    border-radius: 15px;
+  }
+  div#col-3{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: rgb(90, 67, 84);
+    border-radius: 15px;
+  }
+  h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+  }
+  p.describe{
+text-align: center;
+font-size: larger;
+  }
+  button#btn-1{
+    background-color: #fff;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  button#btn-1:hover{
+    background-color: #ee8a08;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  #page-2{
+    background-color: #fff;
+    height: 280px;
+    width: 25cm;
+    margin-left: 10%;
+  }
+  #page-3{
+    background-color: #fff;
+    height: 400px;
+    width: 25cm;
+    margin-left: 10%;
+  }
+  div#col-10{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: red;
+  }
+  div#col-11{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: rgba(94, 38, 75, 0.116);
+  }
+  div#col-12{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: #d0ff00;
+  }
+  div#col-13{
+    float: left;
+    width: 30%;
+    padding: 15.6px;
+    background-color: rgba(9, 188, 243, 0.267);
+  }
+  div#page-4{
+    background-color: black;
+    height: 300px;
+    width: 25cm;
+    margin-left: 10%;
+    border-radius: 20px;
+  }
+  div#col-14{
+    float: left;
+    height: 7.1cm;
+    width: 30%;
+    padding: 15.6px;
+    background-color: black;
+    margin-left: 10%;
+  }  
+  img.Cy{ 
+    border-radius: 15px;
+  }
+    div#col-15{
+      height: 7.1cm;
+      width: 52.7%;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding: 15.6px;
+      background-color: black;
+      margin-left: 11cm;
+      left: 50%;
+      align-items: center;
+    }  
+    p.abx{
+      margin-left: 5px;
+      font-size: larger;
+      color: aliceblue;
+    }
+    h1.story{
+      font-size: xx-large;
+      color: #fff;
+      font-style:normal;
+    }
+
+    /* background-color: blue; 
+    Width: 12.5cm;
+    Height: 55.2vh;
+    left:50%;
+    margin-left: 12.5cm;
+    */
+    button.btn-b{
+      background-color: #4CAF50; /* Green */
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-left: 30%;
+    }
+    button.btn-b:hover{
+      background-color: aqua;
+      font-size: xx-small;
+    }
+    div.FAQs{
+      background-color: #fff;
+      height: 400px;
+      width: 25cm;
+      margin-left: 10%;
+    }
+    h4.quiz{
+      border: 2px solid darkgrey;
+      padding: 10px 3px;
+      width: 7.5cm;
+      border-radius: 10px;
+      margin-left: 7px;
+    }
+    div.provide{
+      border: 2px solid darkgrey;
+      width: 7.5cm;
+      border-radius: 10px;
+      margin-left: 7px;
+    }
+    div.pro{
+      border: 2px solid darkgrey;
+      width: 7.5cm;
+      border-radius: 10px;
+      padding: 0; 
+    }
+    div.p-3{
+      margin-left: 14.5cm;
+      margin-top: -28%; 
+    }
+div.foot{
+  height: 7.3cm;
+  display: block;
+  background-color: black;
+}
+.wrapper .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.nav-links li a{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 35px;
+  margin: 65px;
+}
+.nav-links li a:hover{
+background-color: #ee8a08;
+padding: 5px;
+border-radius: 15px;
+}
+.wrapper .nav-links{
+  /* padding-left: 40px; */
+}
+ul.nav-links{
+  display: inline-flex;
+}
+.nav-links .dropdown-menu{
+  background: #4CAF50;
+  list-style-type: none;
+  width: 190px;
+  position: absolute;
+  line-height: 45px;
+  opacity: 0;
+  visibility: hidden;
+}
+.nav-links li:hover .dropdown-menu{
+opacity: 1;
+visibility: visible;
+}
+.dropdown-menu li a{
+  width: 100%;
+  padding: 0 0 0 15px;
+}
+form.sub{
+padding: 15px;
+margin: 15px;
+}
+input{
+  width: 7cm;
+  height: 24px;
+  margin-left: 18%;
+  border-radius: 10px;
+}
+button.submit{
+  background-color:darksalmon ;
+  text-align: center;
+  font-size: larger;
+  border-radius: 15px;
+  margin-left: 5cm;
+}
+p.copy{
+  color: #fff;
+}
